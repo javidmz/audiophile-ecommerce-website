@@ -20,7 +20,6 @@ function App() {
   const [mobileNav, setMobileNav] = useState(false);
 
   useEffect(() => {
-    console.log(JSON.stringify(jsonData))
     setData(JSON.parse(JSON.stringify(jsonData.products)));
   }, []);
 
